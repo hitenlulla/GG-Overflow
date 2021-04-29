@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	/* To set 1rem = 10px */
+	font-size: 62.5%;
+}
+
+h5{
+  color : white;
+}
+
+h1 { font-size: 300% }
+
+.container {
+font-size = 3em !important;
+
+}
+
+html,
+body {
+	/* To avoid horizontal scrolling */
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+
+.navbar {
+	background: linear-gradient(to right, #000000, #434343);
+	font-family: sans-serif;
+	padding: 0.7rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.nav__item {
+	margin-right: 2.5rem;
+}
+
+.nav__right {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	color: #000;
+	margin-right: -5rem;
+}
+
+.nav__link,
+.nav__link:link {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: rgb(231, 231, 231);
+	// text-shadow: 0 .5rem .5rem #000;
+}
+
+.nav__link:hover {
+	color: rgb(156, 239, 78);
+}
+
+#nav__active {
+	color: rgb(156, 239, 78);
+}
+
+.nav__active {
+	color: rgb(156, 239, 78);
+}
+
+.nav__logo {
+	width: 60%;
+	height: 3rem;
+	margin-left: -5rem;
+}
